@@ -1,0 +1,21 @@
+{
+  "name": "express_and_sequelize_practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed.js",
+    "test": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "jest": "^29.5.0",
+    "path": "^0.12.7",
+    "sequelize": "^6.21.4",
+    "sqlite3": "^5.0.11"
+  }
+}
